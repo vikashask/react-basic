@@ -19,7 +19,7 @@ a, a:active, a:visited, a:hover {
     padding: 20px;
     position: absolute;
     width: 180px;
-    background-color: #F15B2A;
+    background-color: darkgray;
     display: block;
     height: 100%;
 }
@@ -39,7 +39,7 @@ a, a:active, a:visited, a:hover {
 
 
 .leftContentContainer {
-    margin-left: 200px;
+    margin-left: 16%;
 }
 li.nav {
     list-style-type: none;
