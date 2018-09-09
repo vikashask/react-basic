@@ -5,6 +5,8 @@ const Sidebar = () => {
 
     const links = [
         {name: 'About Us', url: '/about-us'},
+        {name: '404 Error', url: '/404Error'},
+
     ];
 
     let linksComponents = links.map((link, index) => {
