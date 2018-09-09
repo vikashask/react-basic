@@ -7,6 +7,7 @@ import Header from "./components/layout/Header";
 import Sidebar from './components/layout/Sidebar';
 import AboutUs from './components/AboutUs';
 import Home from './components/Home';
+import PageNotFound from './components/PageNotFound';
 
 
 class App extends Component {
@@ -22,6 +23,7 @@ class App extends Component {
                         <Route path='/' Component={Home} exact/>
                         <Route path='/about-us' component={AboutUs} />
                         <Route path='/contact-us' component={AboutUs} />
+                        <Route component={PageNotFound} />
 
                     </Switch>
                     </div>
