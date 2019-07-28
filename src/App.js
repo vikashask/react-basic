@@ -20,7 +20,8 @@ class App extends Component {
               <div className={'rightContentContainer'}>
                     <div className="leftContentContainer">
                     <Switch>
-                        <Route path='/' Component={Home} exact/>
+                        <Route path='/' component={Home} exact/>
+
                         <Route path='/about-us' component={AboutUs} />
                         <Route path='/contact-us' component={AboutUs} />
                         <Route component={PageNotFound} />

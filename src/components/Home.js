@@ -1,14 +1,18 @@
-import React from "react";
+import React from 'react';
 
-class Home extends React.Component{
+const Home = () => {
 
-    render = () => {
-        return(
-            <div>
-                AboutUs
-            </div>
-        );
-    }
-}
+    let imgStyle = {
+        marginTop: 50,
+        width: 500,
+        textAlign: 'center'
+    };
+
+    return(
+        <div>
+            Home
+        </div>
+    );
+};
 
 export default Home;
