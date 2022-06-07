@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import "./App.css";
 import AboutUs from "./components/AboutUs";
 import Home from "./components/Home";
-import UseMemoMain from "./components/hook/example1/useMemo/UseMemoMain";
+import UseMemoMain from "./components/hook/useMemo/MainUseMemo";
 import Header from "./components/layout/Header";
 import Sidebar from "./components/layout/Sidebar";
 import PageNotFound from "./components/PageNotFound";
