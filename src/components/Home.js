@@ -1,4 +1,5 @@
 import React from 'react';
+import CustomHookMain from './hook/customHook/CustomHookMain';
 
 const Home = () => {
 
@@ -11,6 +12,7 @@ const Home = () => {
     return(
         <div>
             Home
+            <CustomHookMain />
         </div>
     );
 };
