@@ -5,6 +5,7 @@ import AboutUs from "./components/AboutUs";
 import Home from "./components/Home";
 import CustomHookMain from "./components/hook/customHook/CustomHookMain";
 import UseMemoMain from "./components/hook/useMemo/MainUseMemo";
+import CounterExamp from "./components/hook/useState/CounterExamp";
 import Header from "./components/layout/Header";
 import Sidebar from "./components/layout/Sidebar";
 import PageNotFound from "./components/PageNotFound";
@@ -24,6 +25,7 @@ class App extends Component {
                 <Route path="/use-memo" component={UseMemoMain} />
                 <Route path="/custom-hook" component={CustomHookMain} />
                 <Route path="/contact-us" component={AboutUs} />
+                <Route path="/use-state" component={CounterExamp} />
                 <Route component={PageNotFound} />
               </Switch>
             </div>
