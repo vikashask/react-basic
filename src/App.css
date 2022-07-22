@@ -1,7 +1,10 @@
 .App {
   text-align: center;
 }
-
+.Layout {
+  text-align: center;
+  padding-top: 1em;
+}
 .App-logo {
   animation: App-logo-spin infinite 20s linear;
   height: 80px;

@@ -10,10 +10,11 @@ const CounterExamp = () => {
     setName(event.target.value);
   };
   return (
-    <div>
+    <div className="Layout">
       Count {count}
       <button onClick={() => setCount(count + 1)}>+1</button>
       <button onClick={decrement}>-1</button>
+      <br></br>
       <input placeholder="enter name" onChange={onChangeName} />
       Name : {name}
     </div>
